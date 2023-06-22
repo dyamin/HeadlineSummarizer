@@ -5,7 +5,7 @@ def get_project_root() -> Path:
     return Path(__file__).parent
 
 
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = 'OPENAI_API_KEY'
 RSS_TO_PARSE = 'https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml'
 DB_PATH = '../resources/headlines.db'
 
